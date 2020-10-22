@@ -1,0 +1,146 @@
+/*Ethan Karpinski HTML/CSS Final Website*/
+/*Website idea: EthanDZNS Art, for personal art business*/
+
+body {
+	background-color: #e6ffff;
+}
+
+title {
+	font-size: larger;
+}
+
+.main h1 {
+	font-family: armenian;
+	font-style: italic;
+	color: #004d4d;
+	font-size: 260%;
+	padding: 2px 12px 0px 34px;	
+}
+
+.main h2 {
+	font-family: "Courier New", Courier, monospace;
+	font-style: none;
+	color: #004d4d;
+	font-size: 190%;
+	padding: 2px 12px 0px 34px;	
+}
+
+.main h3 {
+	font-family: "Courier New", Courier, monospace;
+	font-style: none;
+	color: #004d4d;
+	font-size: 150%;
+	padding: 2px 12px 0px 34px;	
+}
+
+.main p {
+	font-family: "Courier New", Courier, monospace;
+	font-style: none;
+	color: #004d4d;
+	font-size: 120%;
+	text-align: justify;
+	padding: 2px 280px 0px 34px;
+	line-height: 160%;
+}
+
+.main img {
+	width: 400px;
+	height: 400px;
+	padding: 2px 0px 0px 50px;	
+}
+
+
+.sidenav {
+  height: 100%; 
+  width: 200px; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #17171c;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 34px;
+  text-decoration: none;
+  font-size: 22px;
+  color: teal;
+  display: block;
+  display: center-left
+}
+
+
+.sidenav a:hover {
+  color: #ADD8E6;
+}
+
+
+.main {
+  margin-left: 200px; 
+  margin-right: 50px;
+  padding: 0px 10px;
+}
+
+
+.sidenav breaks {
+	color: white;
+	display: block; 
+	display: center;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.social {
+	height: 100%;
+	width: 200px; 
+	position: fixed; 
+	z-index: 1; 
+	top: 0; 
+	right: 0;
+	padding-left:50px;
+	background-color: #17171c;
+	overflow-x: hidden; 
+	padding-top: 20px;
+}
+.social img {width: 160px;
+height: 150px;
+}
+.social a {
+  padding: 10px 15px 10px 0px;
+  text-decoration: none;
+  font-size: 22px;
+  color: teal;
+  display: block;
+  display: center-left
+}
+	
+.social a:hover {
+  color: #ADD8E6;
+}
+
+.social breaks {
+	padding: 6px 8px 6px 0px;
+	color: white;
+	font-size:150%
+}
+
+.social contact {
+	padding: 6px 8px 6px 0px;
+	color: white;
+	font-size:150%
+	
+}
+
+.social phone {
+	padding: 6px 8px 6px 0px;
+	color: white;
+	font-size:130%
+	
+}
